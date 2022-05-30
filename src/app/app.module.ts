@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
 import { SponserComponent } from './sponser/sponser.component';
 import { PreRegistrationComponent } from './pre-registration/pre-registration.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PreRegistrationComponent } from './pre-registration/pre-registration.co
     ContactComponent,
     FaqComponent,
     SponserComponent,
-    PreRegistrationComponent
+    PreRegistrationComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
