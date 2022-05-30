@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { ContactComponent } from './contact/contact.component';
+import { FaqComponent } from './faq/faq.component';
+import { SponserComponent } from './sponser/sponser.component';
+import { PreRegistrationComponent } from './pre-registration/pre-registration.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    ContactComponent,
+    FaqComponent,
+    SponserComponent,
+    PreRegistrationComponent
   ],
   imports: [
     BrowserModule,
@@ -20,3 +28,4 @@ import { SecondComponent } from './second/second.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

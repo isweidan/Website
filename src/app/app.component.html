@@ -1,11 +1,53 @@
-<h1>Angular Router App</h1>
-<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
-<nav>
-  <ul>
-    <li><a routerLink="/first-component" routerLinkActive="active">First Component</a></li>
-    <li><a routerLink="/second-component" routerLinkActive="active">Second Component</a></li>
-  </ul>
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">AIHacks4Good</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-0 mb-4 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/pre-registration">Pre-Registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/sponsor-page">Sponsor Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/faq">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/contact-component" routerLinkActive="active">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/test">Test</a>
+        </li>
+        
+ 
+      </ul>
+
+    </div>
+  </div>
 </nav>
-<!-- The routed views render in the <router-outlet>-->
-<router-outlet></router-outlet>
-<h1>hello</h1>
+<!-- main content container -->
+<div class="jumbotron" >
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-10 offset-sm-0">
+              <router-outlet></router-outlet>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="container">
+  <footer class="py-3 my-4">
+      <p class="text-center text-muted">&copy; 2022 AIHacks4Good</p>
+  </footer>
+</div>
+
+
