@@ -1,35 +1,40 @@
 <!-- navigation bar -->
 
-<nav class="navbar navbar-expand-sm bg-light border-bottom border-2" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">AIHacks4good  </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-4 mb-4 mb-lg-0">
-        <li class="nav-item p-1">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item p-1">
-          <a class="nav-link active" aria-current="page" routerLink="/pre-registration-component" routerLinkActive="active">Pre-Registration</a>
-        </li>
-
-        <li class="nav-item p-1">
-          <a class="nav-link active" aria-current="page" routerLink="/faq-component" routerLinkActive="active">FAQ</a>
-        </li>
-        <li class="nav-item p-1">
-          <a class="nav-link active" aria-current="page" routerLink="/sponser-component" routerLinkActive="active">Sponsor Page</a>
-        </li>
-        <li class="nav-item p-1">
-          <a class="nav-link active" aria-current="page" routerLink="/contact-component" routerLinkActive="active">Contact</a>
-        </li>
-
-        
+<nav class="navbar navbar-expand-sm border-bottom border-2" style="background-color: rgb(24, 54, 84); ">
+  <div class="container px-5">
+    
+      <a class="navbar-brand ps-4" href="#" style="color: white;">AIHacks4good  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-4 mb-4 mb-lg-0">
+          <li class="nav-item p-1">
+            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link active" aria-current="page" routerLink="/pre-registration-component" routerLinkActive="active" style="color: white;">Pre-Registration</a>
+          </li>
+  
+          <li class="nav-item p-1">
+            <a class="nav-link active" aria-current="page" routerLink="/faq-component" routerLinkActive="active" style="color: white;">FAQ</a>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link active" aria-current="page" routerLink="/sponser-component" routerLinkActive="active" style="color: white;">Sponsor Page</a>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link active" aria-current="page" routerLink="/contact-component" routerLinkActive="active" style="color: white;">Contact</a>
+          </li>
+  
+          
+   
+        </ul>
+  
+      </div>
+    
  
-      </ul>
+  
 
-    </div>
   </div>
 </nav>
 
@@ -38,12 +43,14 @@
   </div>
 </div>
 <!-- main content container -->
-<div class="jumbotron bg-light" >
-  <div class="container">
-      <div class="row">
-              <router-outlet></router-outlet>
-
+<div class="jumbotron" >
+  <div  class="container px-5 ">
+      <div class="px-4">
+        <router-outlet></router-outlet>
       </div>
+              
+
+      
   </div>
 </div>
 
