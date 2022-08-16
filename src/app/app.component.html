@@ -13,6 +13,12 @@
             <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
           </li>
           <li class="nav-item p-1">
+            <a class="nav-link active" aria-current="page" routerLink="/about-us-component" routerLinkActive="active" style="color: white;">About Us</a>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link active" aria-current="page" routerLink="/sponser-component" routerLinkActive="active" style="color: white;">Sponsor Page</a>
+          </li>
+          <li class="nav-item p-1">
             <a class="nav-link active" aria-current="page" routerLink="/pre-registration-component" routerLinkActive="active" style="color: white;">Pre-Registration</a>
           </li>
   
@@ -20,11 +26,9 @@
             <a class="nav-link active" aria-current="page" routerLink="/faq-component" routerLinkActive="active" style="color: white;">FAQ</a>
           </li>
           <li class="nav-item p-1">
-            <a class="nav-link active" aria-current="page" routerLink="/sponser-component" routerLinkActive="active" style="color: white;">Sponsor Page</a>
-          </li>
-          <li class="nav-item p-1">
             <a class="nav-link active" aria-current="page" routerLink="/contact-component" routerLinkActive="active" style="color: white;">Contact</a>
           </li>
+
   
           
    
@@ -43,15 +47,15 @@
 </div>
 <!-- main content container -->
 
-  <div  class="container px-4 ">
-      
+  <div  class="container px-4 " style="padding-top: 0.5cm;">
         <router-outlet></router-outlet>
-      
-              
-
-      
   </div>
 
 
 
 
+  <div class="container">
+    <footer class="py-3 my-4">
+        <p class="text-center text-muted">&copy; 2022 AIHacks4Good</p>
+    </footer>
+</div>

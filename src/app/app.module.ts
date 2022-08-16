@@ -10,6 +10,7 @@ import { FaqComponent } from './faq/faq.component';
 import { SponserComponent } from './sponser/sponser.component';
 import { PreRegistrationComponent } from './pre-registration/pre-registration.component';
 import { HomeComponent } from './home/home.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     FaqComponent,
     SponserComponent,
     PreRegistrationComponent,
-    HomeComponent
+    HomeComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
