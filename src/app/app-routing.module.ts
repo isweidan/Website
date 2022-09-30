@@ -13,12 +13,12 @@ import { ScheduleComponent } from './schedule/schedule.component';
 const routes: Routes = [
   { path: 'first-component', component: FirstComponent },
   { path: 'second-component', component: SecondComponent },
-  { path: 'contact-component', component: ContactComponent },
-  { path: 'faq-component', component: FaqComponent },
-  { path: 'sponser-component', component: SponserComponent },
-  { path: 'pre-registration-component', component: PreRegistrationComponent },
-  { path: 'about-us-component', component: AboutUsComponent },
-  { path: 'schedule-component', component: ScheduleComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'faq', component: FaqComponent },
+  { path: 'sponser', component: SponserComponent },
+  { path: 'pre-registration', component: PreRegistrationComponent },
+  { path: 'about-us', component: AboutUsComponent },
+  { path: 'schedule', component: ScheduleComponent },
   { path: '', component: HomeComponent },
 ];
 
